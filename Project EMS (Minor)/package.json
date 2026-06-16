@@ -1,0 +1,15 @@
+{
+  "name": "project-ems-minor",
+  "version": "1.0.0",
+  "description": "Employee Management System (EMS) is a web-based application built to simplify employee management for organizations. It provides a centralized platform to manage employee records, departments, attendance, and other essential workforce information.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Himanshu Singh",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
