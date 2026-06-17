@@ -1,0 +1,1 @@
+alert("JS file attached to handle.js");
