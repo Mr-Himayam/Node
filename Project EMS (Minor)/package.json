@@ -5,12 +5,19 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "tailwind": "npx @tailwindcss/cli -i ./public/css/input.css -o ./public/css/output.css --watch",
+    "start": "concurrently \"npm run dev\" \"npm run tailwind\""
   },
   "author": "Himanshu Singh",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/cli": "^4.3.1",
     "mongodb": "^7.3.0",
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "tailwindcss": "^4.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
   }
 }
