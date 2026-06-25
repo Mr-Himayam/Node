@@ -1,1 +1,2 @@
-alert("JS file attached to handle.js");
+// alert("JS file attached to handle.js");
+

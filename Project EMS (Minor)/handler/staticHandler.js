@@ -20,7 +20,6 @@ function staticFile(req, res){
 
     fs.readFile(filePath, (err, data) => {
         if(err){
-            console.log(err);+_
             res.writeHead(500);
             res.end("Unable to read landing page Internal server error");
             return;

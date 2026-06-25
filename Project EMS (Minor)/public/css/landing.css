@@ -1,5 +1,36 @@
-h1{
-    color: red;
-    font-size: 50px;
-    text-align: center;
-};
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 80px;
+}
+
+.box{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#other_Products{
+    margin-left: 350px;
+
+}
+
+.productDisplay{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%
+}
