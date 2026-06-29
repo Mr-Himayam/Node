@@ -8,12 +8,36 @@
 </head>
 <body>
     <header class="head">
-        <a href="#" class="box" id="logo"><img src="#" alt="logo"></a>
-        <a href="#" class="box" id="contact">Contact</a>
-        <a href="#" class="box" id="features">Features</a>
-        <a href="#" class="box" id="about">About Us</a>
-        <a href="#" class="box" id="other_Products">Other Products</a>
-        <div class="productDisplay"></div>
+        <a href="#" class="box logo" id="logo">
+            <img src="https://picsum.photos/seed/logo/200/200" alt="EMS logo" class="logo-img">
+        </a>
+
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav-links" id="mainNav">
+            <a href="#" class="box" id="contact">Contact</a>
+            <a href="#" class="box" id="features">Features</a>
+            <a href="#" class="box" id="about">About Us</a>
+        </nav>
+
+        <div class="right-block">
+            <a href="#" class="box other-products" id="other_Products">Other Products</a>
+            <div class="productDisplay" aria-live="polite">
+            <div class="product active" aria-hidden="false">
+                <img src="https://picsum.photos/seed/prodA/120/120" alt="Other Product A" class="product-img">
+            </div>
+            <div class="product" aria-hidden="true">
+                <img src="https://picsum.photos/seed/prodB/120/120" alt="Other Product B" class="product-img">
+            </div>
+            <div class="product" aria-hidden="true">
+                <img src="https://picsum.photos/seed/prodC/120/120" alt="Other Product C" class="product-img">
+            </div>
+        </div>
+        </div>
     </header>
     <script src="/js/landing.js"></script>
 </body>
